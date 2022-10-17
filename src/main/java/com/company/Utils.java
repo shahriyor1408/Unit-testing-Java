@@ -5,23 +5,19 @@ import java.util.Arrays;
 public class Utils {
 
     public String checkForSame(String str) {
-        String str2 = str;
-        return str2;
+        return str;
     }
 
     public String checkForNotSame(String str) {
-        String str2 = new String(str);
-        return str2;
+        return new String(str);
     }
 
     public int add(int a, int b) {
-        int sum = a + b;
-        return sum;
+        return a + b;
     }
 
     public int sub(int i, int i1) {
-        int sup = i - i1;
-        return sup;
+        return i - i1;
     }
 
     public int[] sortArray(int[] array) {
